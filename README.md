@@ -101,6 +101,6 @@ az staticwebapp create \
     -b main \
     -t <github_personal_access_token> \
     --app-location "/app" \
-    --app-artifact-location "/app/public" \
+    --app-artifact-location "public" \
     --api-location "" \
 ```
