@@ -1,0 +1,17 @@
+{
+  "projectName": "jamstackdev",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "app",
+      "DistributionDir": "public",
+      "BuildCommand": "npm ci && npm run build",
+      "StartCommand": "npm start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
