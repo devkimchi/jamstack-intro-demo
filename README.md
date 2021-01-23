@@ -1,6 +1,6 @@
 # JAMStack Intro Demo #
 
-This provides sample codes of a JAM Stack app for each cloud service providers including Azure, AWS and Google.
+This provides sample codes of a JAM Stack app for each cloud service providers including Google, AWS and Azure.
 
 
 ## Getting Started ##
@@ -82,7 +82,7 @@ amplify publish
 
 ### Deploy Gatsby App onto Azure Static Web App ###
 
-First of all, make sure that you've got `Azure CLI` installed on your local machine. Visit [this page](https://docs.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=github-0000-juyoo) for more detailed installation guide.
+First of all, make sure that you've got `Azure CLI` installed on your local machine. Visit [this page](https://docs.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=github-0000-juyoo) for more detailed installation guide for your OS.
 
 Then, log-in to Azure CLI by running the command.
 
