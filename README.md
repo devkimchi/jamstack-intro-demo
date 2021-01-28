@@ -82,7 +82,7 @@ amplify publish
 
 ### Deploy Gatsby App onto Azure Static Web App ###
 
-First of all, make sure that you've got `Azure CLI` installed on your local machine. Visit [this page](https://docs.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=github-0000-juyoo) for more detailed installation guide for your OS.
+First of all, make sure that you've got `Azure CLI` installed on your local machine. Visit [this page](https://docs.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=dotnet-13835-juyoo) for more detailed installation guide for your OS.
 
 Then, log-in to Azure CLI by running the command.
 
@@ -90,7 +90,7 @@ Then, log-in to Azure CLI by running the command.
 az login
 ```
 
-And finally run the following command to publish the app.
+And finally run the following command to publish the app. It creates an [Azure Static Web App](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=dotnet-13835-juyoo) instance and deploy the app.
 
 ```bash
 az staticwebapp create \
