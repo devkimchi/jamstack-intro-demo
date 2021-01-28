@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
 
-    {/* <Greeting name="서버리스 밋업"></Greeting> */}
+    <Greeting name="서버리스 밋업"></Greeting>
   </Layout>
 )
 
